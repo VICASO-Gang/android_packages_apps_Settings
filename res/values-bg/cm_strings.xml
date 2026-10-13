@@ -38,8 +38,8 @@
     <string name="heads_up_notifications_enabled_summary">Покажи приоритетни известия в малък плаващ прозорец</string>
     <string name="high_touch_sensitivity_title">Висока чувствителност на допир</string>
     <string name="high_touch_sensitivity_summary">Увеличи сензорната чувствителност, така че може да се използва докато носите ръкавици</string>
-    <string name="tethering_allow_vpn_upstreams_title">Разрешете на клиентите да използват VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Разрешете на клиентите на точка за достъп да използват VPN връзките на това устройство, за да се свържат с мрежата</string>
+    <string name="tethering_allow_vpn_upstreams_title">Използвай VPN за свързани устройства</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Когато това устройство използва VPN, всички устройства, свързани към горещата точка ще ползват същия VPN.</string>
     <string name="lock_settings_picker_pattern_size_message">Изберете размера на шаблона</string>
     <string name="lockpattern_settings_enable_error_path_title">Покажи модела на грешката</string>
     <string name="lockpattern_settings_enable_dots_title">Покажи точките на модела</string>
@@ -60,8 +60,10 @@
     <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Докоснете сензора на гърба на таблета ви.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Докоснете сензора на гърба на устройството ви.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Докоснете сензора на гърба на телефона ви.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Докоснете сензора отстрани на таблета ви.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Докоснете сензора отсрани на устройството ви.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Докоснете сензора отстрани на таблета ви.
+</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Докоснете сензора отсрани на устройството ви.
+</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Докоснета сензора отстрани на телефона ви.</string>
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Докоснете сензора, за да отключите, дори когато екранът е изключен. Сензорът за близост предотвратява неволно октлючване.</string>
     <string name="show_navbar_hint_title">Подсказки за навигация</string>

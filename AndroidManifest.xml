@@ -836,7 +836,8 @@
                 android:label="@string/device_picker"
                 android:configChanges="orientation|keyboardHidden|screenSize"
                 android:exported="true"
-                android:clearTaskOnLaunch="true">
+                android:clearTaskOnLaunch="true"
+                android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
                 <action android:name="android.bluetooth.devicepicker.action.LAUNCH" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -2429,7 +2430,7 @@
             android:name="Settings$AppUsageAccessSettingsActivity"
             android:exported="true"
             android:label="@string/usage_access_title">
-            <intent-filter>
+            <intent-filter android:priority="1">
                 <action android:name="android.settings.USAGE_ACCESS_SETTINGS"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:scheme="package"/>
